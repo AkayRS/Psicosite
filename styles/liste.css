@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px; 
+    
+}
+
+.sotto-container{
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    flex-basis:33%;
+    padding: 30px;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.item h1{
+    color:white;
+    text-align: center;
+}
+
+.item img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+/* Media query per schermi di larghezza massima di 600 pixel (dispositivi mobili) */
+@media screen and (max-width: 600px) {
+    
+    .sotto-container{
+        padding:0px;
+        flex-wrap: wrap;
+    }
+}
+
+/* Media query per schermi di larghezza compresa tra 601 e 992 pixel (tablet) */
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    
+}

@@ -1,0 +1,19 @@
+.cover{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra lungo l'asse trasversale (asse Y, in questo caso) */
+    justify-content: center;
+    
+}
+
+.cover img{
+    
+    width: 80%;
+}
+
+.header{
+    color: white;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
