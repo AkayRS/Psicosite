@@ -1,45 +1,18 @@
-
-
-.menu-icon-bar span{
-    display: block;
-    width: 50px;
-    height: 10px;
-    background-color: white;
-    margin-top: 10px;
-
-
-}
-
-.menu{
-
-    padding: 10px;
-}
-
-.menu-categorie{
-    margin-top: 10px;
+.menu-bar{
     display: flex;
     flex-direction: column;
-    background-color: gray;
+    width: 20%;
+    gap: 10px;
+}
+
+.menu-bar button{
     border-radius: 10px;
-    
-    
+    width: 100%;
+    background-color: black;
+    color: white;
+
 }
 
-
-
-.menu-categorie h1{
-    color:white;
-    margin-left: 10px;
+.menu-bar button:hover{
+    background-color: grey;
 }
-
-.menu-categorie a{
-    text-decoration: none;
-}
-
-.espansione{
-    display: none;
-    
-}
-
-
-
