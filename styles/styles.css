@@ -77,3 +77,14 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+@media only screen and (max-width: 600px) {
+    
+    .item img{
+
+        width: 100px;
+       
+    
+        
+    }
+  }
