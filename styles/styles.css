@@ -23,8 +23,7 @@ body{
 
 .articolo{
     
-    width: 100%;
-    margin: 20px;
+    width: auto;
     gap: 10px;
     color:white;
     
