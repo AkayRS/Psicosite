@@ -1,6 +1,7 @@
 body{
 
     background-color:black;
+    margin:0px;
 }
 
 .contenitore-principale{
@@ -24,8 +25,14 @@ body{
 .articolo{
     
     width: auto;
-    gap: 10px;
     color:white;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+
     
 }
 
