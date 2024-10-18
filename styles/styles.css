@@ -29,6 +29,11 @@ body{
     
 }
 
+.articolo li{
+
+    padding: 3px;
+}
+
 
 .item{
     padding:10px;
