@@ -1,7 +1,6 @@
 .menu-bar{
     display: flex;
     flex-direction: column;
-    width: 20%;
     gap: 10px;
 }
 
@@ -10,7 +9,8 @@
     width: 100%;
     background-color: black;
     color: white;
-    text-overflow: ellipsis;
+    overflow: hidden;
+    
 
 }
 
